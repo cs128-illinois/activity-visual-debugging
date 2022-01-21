@@ -1,5 +1,5 @@
 CXX = clang++
-CXX_FLAGS = -std=c++2a  -g -O0 -Wall -Wextra -Iincludes  #-Werror
+CXX_FLAGS = -std=c++20  -g -O0 -Wall -Wextra -Iincludes  #-Werror
 
 .PHONY: tests clean
 

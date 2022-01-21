@@ -1,4 +1,5 @@
-#pragma once
+#ifndef RESTAURANT_HPP
+#define RESTAURANT_HPP
 
 #include "customer.hpp"
 #include "supplier.hpp"
@@ -55,3 +56,5 @@ class Restaurant {
     int money_;
     Supplier supplier_;
 };
+
+#endif
