@@ -1,9 +1,9 @@
 # Visual debugging
 ----------------
 
-LLDB (the **L**ow **L**evel **D**e**B**ugger) is a helpful debugging tool. Since we are using VSCode for C++ in this class, we can use the lldb visual debugging tool to help us look through our code for issues. In today’s lab, you’ll be going over the basics of how to use this debugging tool.
+LLDB (the **L**ow **L**evel **D**e**B**ugger) is a helpful debugging tool. Since we are using VSCode for C++ in this class, we can use the lldb visual debugging tool to help us look through our code for issues. In today’s lab, you’ll go over the basics of using this debugging tool.
 
-For this lab, all commands should be executed from the root directory of the repository you cloned above. In a minute, your lab facilitator will run through solving the first bug (of four!) in the given code, and we strongly encourage you to follow along on your own machine. You’ll be figuring out the rest of the bugs in groups with your peers.
+For this lab, you should execute all commands from the root directory of the repository you cloned above. In a minute, your lab facilitator will run through solving the first bug (of four!) in the given code, and we strongly encourage you to follow along on your machine. After that, you’ll figure out the rest of the bugs in groups with your peers.
 
 Here is a short table describing the actions you can take while using the VSCode lldb tool:
 
