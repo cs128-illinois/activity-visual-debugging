@@ -1,6 +1,4 @@
 # Visual debugging
-
-Visual Debugging
 ----------------
 
 LLDB (the **L**ow **L**evel **D**e**B**ugger) is a helpful debugging tool. Since we are using VSCode for C++ in this class, we can use the lldb visual debugging tool to help us look through our code for issues. In today’s lab, you’ll be going over the basics of how to use this debugging tool.
@@ -40,13 +38,17 @@ Stop
 
 Stops the debugger.
 
-#### Breakpoints
+## Breakpoints
 
 Breakpoints are incredibly useful while debugging. They allow you to put stopping points on specific lines of code in your program so that the debugger stops when reaching them. This is useful to check out the value of a variable at a specific point in the program, inspect how an algorithm works step by step, and in many other ways too. You can place a breakpoint by left-clicking in the space to the left of a line number. It should create a red dot and look like this:
 
 ![](https://cdn1.cs128.org/fa21/lldb-vis-breakpoint.png)
 
-Once you have fixed all the bugs, all tests should pass, and the result of running the main we give you should be:
+# The activity
+
+ Review the code dependencies for the `make exec` target to determine what's happening in our faulty implementation of basic restaurant software.  Once you're comfortable with the code base, compile the source to an executable, and run the resultant executable through our environment's debugger. Your task is to identify and resolve all bugs in our implementation.
+
+You can confirm your progress by compiling and running the provided test suite, `make tests`. Once you have fixed all the bugs, all tests should pass, and the result of running the main we give you should be:
 
     ------------------------------
     | Welcome to our restaurant! |
